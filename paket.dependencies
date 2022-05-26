@@ -7,9 +7,9 @@ group NETSTANDARD
     storage:none
 
     nuget FSharp.Core ~> 4.7.0 redirects: force 
-    nuget WebSharper = 4.5.19.349
-    nuget WebSharper.FSharp = 4.5.19.349
-	nuget WebSharper.Core = 4.5.19.349
+    nuget WebSharper = 4.7.3.446
+    nuget WebSharper.FSharp = 4.7.3.446
+	nuget WebSharper.Core = 4.7.3.446
 
     nuget System.Text.Encodings.Web >= 4.7.2
 
@@ -205,9 +205,9 @@ group DOTNETCORE
 
     nuget FSharp.Configuration >= 2.0.0-alpha2
 
-    nuget WebSharper = 4.5.19.349
-    nuget WebSharper.FSharp = 4.5.19.349
-	nuget WebSharper.Core = 4.5.19.349
+    nuget WebSharper = 4.7.3.446
+    nuget WebSharper.FSharp = 4.7.3.446
+	nuget WebSharper.Core = 4.7.3.446
 	
 	nuget FSharp.Data >= 3.3.3
 
