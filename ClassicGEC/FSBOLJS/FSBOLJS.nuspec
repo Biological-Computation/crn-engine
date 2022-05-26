@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FSBOLJS</id>
+    <version>2.2.1.06</version>
+    <title>FSBOLJS</title>
+    <authors>Prashant Vaidyanathan, Colin Gravill, Filippo Polo, Andrew Phillips</authors>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/SynBioDex/fSBOL</projectUrl>
+    <repository type="git" url="https://github.com/SynBioDex/fSBOL"/>
+    <iconUrl>https://avatars2.githubusercontent.com/u/972220</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An FSharp library that can be used while using W#</description>
+    <releaseNotes>Compliant with SBOL Version 2.2.1 (http://sbolstandard.org/wp-content/uploads/2016/06/SBOL-data-model-2.2.1.pdf)</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>FSharp F# SBOL SyntheticBiology DataModel W#</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+          <dependency id="WebSharper.FSharp" version="4.5.11.334" />
+          <dependency id="FSharp.Core" version="4.6.2" />
+      </group>
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="C:\work\sbol\fsbol\FSBOL\*.fsproj" target="fable"/>
+    <file src="C:\work\sbol\fsbol\FSBOL\*.fs" target="fable"/>
+    <file src="C:\work\sbol\fsbol\FSBOL\*.fsi" target="fable"/>
+  </files>
+</package>

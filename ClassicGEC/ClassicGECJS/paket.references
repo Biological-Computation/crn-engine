@@ -1,4 +1,3 @@
 ﻿group NETSTANDARD
 	WebSharper.FSharp
 	FSharp.Core
-	FSBOLJS

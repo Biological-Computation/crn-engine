@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;JavaScript</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;JavaScript</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\FSBOL\websharperstubs.fs">
+      <Link>websharperstubs.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Terms.fs">
+      <Link>Terms.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Role.fs">
+      <Link>Role.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\QualifiedName.fs">
+      <Link>QualifiedName.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Annotation.fsi">
+      <Link>Annotation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Annotation.fs">
+      <Link>Annotation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Identifiers.fsi">
+      <Link>Identifiers.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Identifiers.fs">
+      <Link>Identifiers.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\TopLevel.fsi">
+      <Link>TopLevel.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\TopLevel.fs">
+      <Link>TopLevel.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Attachment.fsi">
+      <Link>Attachment.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Attachment.fs">
+      <Link>Attachment.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Collection.fsi">
+      <Link>Collection.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Collection.fs">
+      <Link>Collection.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Sequence.fsi">
+      <Link>Sequence.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Sequence.fs">
+      <Link>Sequence.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\MapsTo.fsi">
+      <Link>MapsTo.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\MapsTo.fs">
+      <Link>MapsTo.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ComponentInstance.fsi">
+      <Link>ComponentInstance.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ComponentInstance.fs">
+      <Link>ComponentInstance.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Component.fsi">
+      <Link>Component.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Component.fs">
+      <Link>Component.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Location.fsi">
+      <Link>Location.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Location.fs">
+      <Link>Location.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Range.fsi">
+      <Link>Range.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Range.fs">
+      <Link>Range.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Cut.fsi">
+      <Link>Cut.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Cut.fs">
+      <Link>Cut.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\GenericLocation.fsi">
+      <Link>GenericLocation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\GenericLocation.fs">
+      <Link>GenericLocation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SequenceAnnotation.fsi">
+      <Link>SequenceAnnotation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SequenceAnnotation.fs">
+      <Link>SequenceAnnotation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SequenceConstraint.fsi">
+      <Link>SequenceConstraint.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SequenceConstraint.fs">
+      <Link>SequenceConstraint.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ComponentDefinition.fsi">
+      <Link>ComponentDefinition.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ComponentDefinition.fs">
+      <Link>ComponentDefinition.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\VariableComponent.fsi">
+      <Link>VariableComponent.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\VariableComponent.fs">
+      <Link>VariableComponent.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\CombinatorialDerivation.fsi">
+      <Link>CombinatorialDerivation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\CombinatorialDerivation.fs">
+      <Link>CombinatorialDerivation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Model.fsi">
+      <Link>Model.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Model.fs">
+      <Link>Model.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Module.fsi">
+      <Link>Module.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Module.fs">
+      <Link>Module.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\FunctionalComponent.fsi">
+      <Link>FunctionalComponent.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\FunctionalComponent.fs">
+      <Link>FunctionalComponent.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Participation.fsi">
+      <Link>Participation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Participation.fs">
+      <Link>Participation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Interaction.fsi">
+      <Link>Interaction.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Interaction.fs">
+      <Link>Interaction.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ModuleDefinition.fsi">
+      <Link>ModuleDefinition.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\ModuleDefinition.fs">
+      <Link>ModuleDefinition.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Implementation.fsi">
+      <Link>Implementation.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\Implementation.fs">
+      <Link>Implementation.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SBOLDocument.fsi">
+      <Link>SBOLDocument.fsi</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\SBOLDocument.fs">
+      <Link>SBOLDocument.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\JsonSerializer.fs">
+      <Link>JsonSerializer.fs</Link>
+    </Compile>
+    <Compile Include="..\FSBOL\AssemblyInfo.fs">
+      <Link>AssemblyInfo.fs</Link>
+    </Compile>
+    <Content Include="app.config" />
+    <None Include="paket.references" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WebSharper.Collections">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Control">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Core">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Core.JavaScript">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Core.JavaScript.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.InterfaceGenerator">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.InterfaceGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.JQuery">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.JQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.JavaScript">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.JavaScript.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Main">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Main.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Sitelets">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Sitelets.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSharper.Web">
+      <HintPath>..\packages\WebSharper\lib\netstandard2.0\WebSharper.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

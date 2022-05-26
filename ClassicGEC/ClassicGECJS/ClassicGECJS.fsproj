@@ -98,6 +98,7 @@
     <ProjectReference Include="..\..\Filzbach.FSharp.JS\Filzbach.FSharp.JS.fsproj" />
     <ProjectReference Include="..\..\ParserCombinators\ParserCombinatorsJS\ParserCombinatorsJS.fsproj" />
     <ProjectReference Include="..\..\RulesDSD\RulesDSDJS\RulesDSDJS.fsproj" />
+    <ProjectReference Include="..\FSBOLJS\FSBOLJS.fsproj" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
