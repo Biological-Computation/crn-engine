@@ -25,9 +25,6 @@ group NETSTANDARD
     nuget WindowsAzure.Storage 9.3.3
 	nuget Microsoft.Azure.Batch ~> 10.1.0
 
-    nuget FSharpIDD >= 0.4.3
-    nuget FSharpIDD.WS >= 0.4.3
-
     nuget FParsec = 1.1.1
 
 	nuget DynamicLanguageRuntime >= 1.1.2
@@ -126,8 +123,6 @@ group DOTNETCORE
     nuget Fable.PowerPack >= 3.0.0
     nuget Fable.React 5.3.5
 
-    nuget FSharpIDD >= 0.4.3
-    nuget FSharpIDD.WS >= 0.4.3
     nuget FParsec = 1.1.1
 
     nuget FsPickler >= 5.2.0

@@ -66,6 +66,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "StabilityZ3", "..\Stability
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Oslo.FSharp", "..\Oslo\Oslo.FSharp\Oslo.FSharp.fsproj", "{60A49E43-FB26-4F2F-B71F-BB34695EA47B}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpIDD.WS", "..\FSharpIDD\FSharpIDD.WS\FSharpIDD.WS.fsproj", "{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -175,6 +177,10 @@ Global
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Debug|x64.Build.0 = Debug|Any CPU
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Release|x64.ActiveCfg = Release|Any CPU
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Release|x64.Build.0 = Release|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Debug|x64.Build.0 = Debug|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Release|x64.ActiveCfg = Release|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
