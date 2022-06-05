@@ -7,4 +7,4 @@
 #xunit.runner.visualstudio
 FSharp.Collections.ParallelSeq
 FSharp.Core
-FSBOL
+#FSBOL
