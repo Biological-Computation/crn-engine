@@ -39,7 +39,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\CRNEngine\CRNEngineDotNet\CRNEngineDotNet.fsproj" />
     <ProjectReference Include="..\..\Filzbach.FSharp\Filzbach.FSharp.Portable.fsproj" />
-    <ProjectReference Include="..\..\FSBOLWrapper\FSBOLWrapper\FSBOLWrapper.fsproj" />
     <ProjectReference Include="..\..\ParserCombinators\ParserCombinators\ParserCombinators.fsproj" />
     <ProjectReference Include="..\..\PDESolvers\ReactionDiffusion\ReactionDiffusion.fsproj" />
     <ProjectReference Include="..\..\RulesDSD\RulesDSD\RulesDSD.fsproj" />

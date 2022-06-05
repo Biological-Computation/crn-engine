@@ -7,19 +7,19 @@ open System.Net.WebSockets
 open Messages
 open Microsoft.Research.GEC
 open Microsoft.Research.CRNEngine
-open Microsoft.Research.CRNEngine.JSAPI
+//open Microsoft.Research.CRNEngine.JSAPI
 open Microsoft.Research
 open Microsoft.Research.CRNEngineServerLib.Messages
 open Microsoft.Research.CRNEngineServerLib.Serialisation
 open Microsoft.Research.GEC.GECEngine
-open FSBOL
+(*open FSBOL
 open System.IO
-open System.Xml
+open System.Xml*)
 
 let mutable currentResult : GEC.JSAPI.solve_result option = None
 let mutable currentSolution : GEC.JSAPI.solution_result option = None
 
-let serializeSBOLDocumentToXML sbol =
+(*let serializeSBOLDocumentToXML sbol =
   let xml = XmlSerializer.sbolToXml sbol
   let stringWriter = new StringWriter()
   let settings = new XmlWriterSettings();
@@ -30,7 +30,7 @@ let serializeSBOLDocumentToXML sbol =
   let ret = stringWriter.GetStringBuilder().ToString();
   xmlWriter.Dispose();
   stringWriter.Dispose();
-  ret
+  ret*)
 
 let processCompileGECRequest code dbparts dbreactions (webSocket:WebSocket) = 
     let sendObject o = sendObject webSocket o

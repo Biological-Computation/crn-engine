@@ -60,10 +60,6 @@ group NETSTANDARD
 	nuget System.Drawing.Common >= 4.5.1
 
     nuget SixLabors.ImageSharp 1.0.0-beta0007
-	
-	nuget FSBOL >= 2.2.1.1
-	nuget FSBOLJS >= 2.2.1.5
-
     nuget Thoth.Json.net >= 2.5.0
 	
 group NETFRAMEWORK
