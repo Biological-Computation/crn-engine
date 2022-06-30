@@ -46,8 +46,6 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CliLibrary", "..\CRNEngine\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTML5CRN_Lib", "..\HTML5SharedGUI\HTML5CRN_Lib\HTML5CRN_Lib.csproj", "{B4C3F008-B6CA-4D63-9B98-6AC2D97B4E9B}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSBOLWrapper", "..\FSBOLWrapper\FSBOLWrapper\FSBOLWrapper.fsproj", "{AD19FE90-3663-4161-AC2D-08B4381D4808}"
-EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ClassicGECIntegrationTests", "ClassicGECIntegrationTests\ClassicGECIntegrationTests.fsproj", "{0278F0E2-D752-47C1-A2E5-EF4BB7828C93}"
 	ProjectSection(ProjectDependencies) = postProject
 		{866880DC-BF1E-4C12-8238-72E7EFF44AFB} = {866880DC-BF1E-4C12-8238-72E7EFF44AFB}
@@ -66,6 +64,8 @@ EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "StabilityZ3", "..\StabilityZ3\StabilityZ3\StabilityZ3.fsproj", "{A7F6C30E-8925-4A2F-BC4C-7C2560809609}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Oslo.FSharp", "..\Oslo\Oslo.FSharp\Oslo.FSharp.fsproj", "{60A49E43-FB26-4F2F-B71F-BB34695EA47B}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpIDD.WS", "..\FSharpIDD\FSharpIDD.WS\FSharpIDD.WS.fsproj", "{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,10 +153,6 @@ Global
 		{B4C3F008-B6CA-4D63-9B98-6AC2D97B4E9B}.Debug|x64.Build.0 = Debug|Any CPU
 		{B4C3F008-B6CA-4D63-9B98-6AC2D97B4E9B}.Release|x64.ActiveCfg = Release|Any CPU
 		{B4C3F008-B6CA-4D63-9B98-6AC2D97B4E9B}.Release|x64.Build.0 = Release|Any CPU
-		{AD19FE90-3663-4161-AC2D-08B4381D4808}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AD19FE90-3663-4161-AC2D-08B4381D4808}.Debug|x64.Build.0 = Debug|Any CPU
-		{AD19FE90-3663-4161-AC2D-08B4381D4808}.Release|x64.ActiveCfg = Release|Any CPU
-		{AD19FE90-3663-4161-AC2D-08B4381D4808}.Release|x64.Build.0 = Release|Any CPU
 		{0278F0E2-D752-47C1-A2E5-EF4BB7828C93}.Debug|x64.ActiveCfg = Debug|x64
 		{0278F0E2-D752-47C1-A2E5-EF4BB7828C93}.Debug|x64.Build.0 = Debug|x64
 		{0278F0E2-D752-47C1-A2E5-EF4BB7828C93}.Release|x64.ActiveCfg = Release|x64
@@ -189,6 +185,10 @@ Global
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Debug|x64.Build.0 = Debug|Any CPU
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Release|x64.ActiveCfg = Release|Any CPU
 		{60A49E43-FB26-4F2F-B71F-BB34695EA47B}.Release|x64.Build.0 = Release|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Debug|x64.Build.0 = Debug|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Release|x64.ActiveCfg = Release|Any CPU
+		{7CF30B07-1D2D-43DE-9230-3C734E9A3BD2}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

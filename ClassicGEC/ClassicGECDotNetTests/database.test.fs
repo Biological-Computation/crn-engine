@@ -4,9 +4,9 @@
 module Microsoft.Research.GEC.DatabaseTest
 
 open Microsoft.Research.GEC.Database
-open FSBOL
+(*open FSBOL
 open FSBOL.SBOLDocument
-open FSBOL.XmlSerializer
+open FSBOL.XmlSerializer*)
 open Xunit
 open FsUnit.Xunit
 open System.Diagnostics

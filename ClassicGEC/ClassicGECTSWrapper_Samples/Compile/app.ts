@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 import ClassicGEC from "../../ClassicGECTSWrapper/Scripts/ClassicGEC";
+import Options from '../../../HTML5SharedGUI/GenericComponents/Scripts/Options';
 import * as CRNInterfaces from "../../../CRNEngine/CRNEngineTSWrapper/Scripts/Interfaces";
 import "../samples.css"
 
@@ -10,7 +11,7 @@ var partsBox = <HTMLTextAreaElement>document.getElementById("partsBox");
 var reactionsBox = <HTMLTextAreaElement>document.getElementById("reactionsBox");
 var status = document.getElementById("status");
 
-var me = new ClassicGEC();
+var me = new ClassicGEC(Options.Server());
 
 function appendStatus(header: string, text?: string) {
     var p = document.createElement("p");

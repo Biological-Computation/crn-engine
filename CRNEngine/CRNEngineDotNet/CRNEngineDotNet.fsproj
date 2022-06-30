@@ -120,6 +120,7 @@
     <ProjectReference Include="..\..\Oslo\Oslo.FSharp\Oslo.FSharp.fsproj" />
     <ProjectReference Include="..\..\ParserCombinators\ParserCombinators\ParserCombinators.fsproj" />
     <ProjectReference Include="..\..\PDESolvers\ReactionDiffusion\ReactionDiffusion.fsproj" />
+    <ProjectReference Include="..\..\FSharpIDD\FSharpIDD\FSharpIDD.fsproj" />
   </ItemGroup>
   <Target Name="Making Version" BeforeTargets="BeforeBuild">
     <Exec Command="git rev-parse --short HEAD &gt; $(ProjectDir)\version.txt" />

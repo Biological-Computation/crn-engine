@@ -7,9 +7,9 @@ group NETSTANDARD
     storage:none
 
     nuget FSharp.Core ~> 4.7.0 redirects: force 
-    nuget WebSharper = 4.5.19.349
-    nuget WebSharper.FSharp = 4.5.19.349
-	nuget WebSharper.Core = 4.5.19.349
+    nuget WebSharper = 4.7.3.446
+    nuget WebSharper.FSharp = 4.7.3.446
+	nuget WebSharper.Core = 4.7.3.446
 
     nuget System.Text.Encodings.Web >= 4.7.2
 
@@ -24,9 +24,6 @@ group NETSTANDARD
 
     nuget WindowsAzure.Storage 9.3.3
 	nuget Microsoft.Azure.Batch ~> 10.1.0
-
-    nuget FSharpIDD >= 0.4.3
-    nuget FSharpIDD.WS >= 0.4.3
 
     nuget FParsec = 1.1.1
 
@@ -60,10 +57,6 @@ group NETSTANDARD
 	nuget System.Drawing.Common >= 4.5.1
 
     nuget SixLabors.ImageSharp 1.0.0-beta0007
-	
-	nuget FSBOL >= 2.2.1.1
-	nuget FSBOLJS >= 2.2.1.5
-
     nuget Thoth.Json.net >= 2.5.0
 	
 group NETFRAMEWORK
@@ -130,8 +123,6 @@ group DOTNETCORE
     nuget Fable.PowerPack >= 3.0.0
     nuget Fable.React 5.3.5
 
-    nuget FSharpIDD >= 0.4.3
-    nuget FSharpIDD.WS >= 0.4.3
     nuget FParsec = 1.1.1
 
     nuget FsPickler >= 5.2.0
@@ -205,9 +196,9 @@ group DOTNETCORE
 
     nuget FSharp.Configuration >= 2.0.0-alpha2
 
-    nuget WebSharper = 4.5.19.349
-    nuget WebSharper.FSharp = 4.5.19.349
-	nuget WebSharper.Core = 4.5.19.349
+    nuget WebSharper = 4.7.3.446
+    nuget WebSharper.FSharp = 4.7.3.446
+	nuget WebSharper.Core = 4.7.3.446
 	
 	nuget FSharp.Data >= 3.3.3
 

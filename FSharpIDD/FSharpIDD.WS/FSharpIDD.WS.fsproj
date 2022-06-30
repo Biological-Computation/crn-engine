@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;JavaScript</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;JavaScript</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\FSharpIDD\Colour.fs" />
+    <Compile Include="..\FSharpIDD\Dom.fs" />
+    <Compile Include="..\FSharpIDD\Plots.fs" />
+    <Compile Include="..\FSharpIDD\Polyline.fs" />
+    <Compile Include="..\FSharpIDD\Markers.fs" />
+    <Compile Include="..\FSharpIDD\Bars.fs" />
+    <Compile Include="..\FSharpIDD\Histogram.fs" />
+    <Compile Include="..\FSharpIDD\Heatmap.fs" />
+    <Compile Include="..\FSharpIDD\Chart.fs" />
+    <Compile Include="..\FSharpIDD\HtmlConverters.fs" />
+    <Compile Include="..\FSharpIDD\Subplots.fs" />
+    <Compile Include="..\FSharpIDD\Html.fs" />
+    <None Include="paket.references" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

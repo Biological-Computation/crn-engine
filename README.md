@@ -30,7 +30,7 @@ Additionally, you should ensure that the following **Individual Components** are
 
 ### 2. Install .NET SDKs
 
-The .NET Core SDKs required are [2.1](https://dotnet.microsoft.com/download/dotnet/2.1) and [3.1](https://dotnet.microsoft.com/download/dotnet/3.1). Currently, the build pipeline is working with 2.1.818 and 3.1.413.
+The .NET Core SDKs required is [3.1](https://dotnet.microsoft.com/download/dotnet/3.1). Currently, the build pipeline is working with 3.1.413.
 
 ### 3. Install dotnet tools
 

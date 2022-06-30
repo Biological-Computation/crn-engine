@@ -1,0 +1,1 @@
+code fork of https://github.com/predictionmachines/FSharpIDD in order to resolve WebSharper build errors
