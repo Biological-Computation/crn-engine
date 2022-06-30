@@ -22,9 +22,9 @@ type Response_GECSolutions =
     { mtype : string
       count : int }
 
-type Response_SBOL =
+(*type Response_SBOL =
     { mtype : string
-      document : FSBOL.JsonSerializer.rSBOLDocument }
+      document : FSBOL.JsonSerializer.rSBOLDocument }*)
 
 type GECSolution =
     { model : GuiIG

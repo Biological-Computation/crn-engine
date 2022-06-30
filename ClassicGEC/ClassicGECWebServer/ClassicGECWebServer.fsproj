@@ -22,7 +22,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\CRNEngine\CRNEngineServerLib\CRNEngineServerLib.fsproj" />
     <ProjectReference Include="..\..\CRNEngine\CRNJobsManager\CRNJobsManager.csproj" />
-    <ProjectReference Include="..\..\FSBOLWrapper\FSBOLWrapper\FSBOLWrapper.fsproj" />
     <ProjectReference Include="..\..\MomentClosure\MomentClosure\MomentClosure.fsproj" />
     <ProjectReference Include="..\..\ParserCombinators\ParserCombinators\ParserCombinators.fsproj" />
     <ProjectReference Include="..\..\PDESolvers\ReactionDiffusion\ReactionDiffusion.fsproj" />

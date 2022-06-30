@@ -26,8 +26,6 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ClassicGECCLI", "ClassicGEC
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ClassicGECDotNetTests", "ClassicGECDotNetTests\ClassicGECDotNetTests.fsproj", "{EEBFA61A-4235-4C7C-B801-D44958F9D21C}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSBOLWrapper", "..\FSBOLWrapper\FSBOLWrapper\FSBOLWrapper.fsproj", "{7D875457-2116-4222-89E0-A048792E1213}"
-EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MomentClosure", "..\MomentClosure\MomentClosure\MomentClosure.fsproj", "{40A82B6F-9447-4767-BD5B-8D870D3FACFF}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "CRNEngineCloudLib", "..\CRNEngine\CRNEngineCloudLib\CRNEngineCloudLib.fsproj", "{B0C5BB1E-CC0C-4D9E-A56A-82891A09653E}"
@@ -41,6 +39,8 @@ EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Oslo.FSharp", "..\Oslo\Oslo.FSharp\Oslo.FSharp.fsproj", "{60A49E43-FB26-4F2F-B71F-BB34695EA47B}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LogicGECTests", "LogicGECTests\LogicGECTests.fsproj", "{16B874E3-27AB-40B5-A886-D7E1B5538807}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpIDD", "..\FSharpIDD\FSharpIDD\FSharpIDD.fsproj", "{0D53ED47-612B-49D5-AE23-101D9583EE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,14 +122,6 @@ Global
 		{EEBFA61A-4235-4C7C-B801-D44958F9D21C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EEBFA61A-4235-4C7C-B801-D44958F9D21C}.Release|x64.ActiveCfg = Release|Any CPU
 		{EEBFA61A-4235-4C7C-B801-D44958F9D21C}.Release|x64.Build.0 = Release|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Debug|x64.Build.0 = Debug|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Release|x64.ActiveCfg = Release|Any CPU
-		{7D875457-2116-4222-89E0-A048792E1213}.Release|x64.Build.0 = Release|Any CPU
 		{40A82B6F-9447-4767-BD5B-8D870D3FACFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40A82B6F-9447-4767-BD5B-8D870D3FACFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A82B6F-9447-4767-BD5B-8D870D3FACFF}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -182,6 +174,14 @@ Global
 		{16B874E3-27AB-40B5-A886-D7E1B5538807}.Release|Any CPU.Build.0 = Release|Any CPU
 		{16B874E3-27AB-40B5-A886-D7E1B5538807}.Release|x64.ActiveCfg = Release|Any CPU
 		{16B874E3-27AB-40B5-A886-D7E1B5538807}.Release|x64.Build.0 = Release|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D53ED47-612B-49D5-AE23-101D9583EE64}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

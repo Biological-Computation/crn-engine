@@ -2,5 +2,4 @@ group NETSTANDARD
 
 FSharp.Collections.ParallelSeq
 FSharp.Core
-FSharpIDD
 WebSharper.Core

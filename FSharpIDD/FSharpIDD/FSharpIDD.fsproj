@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="WebSharperStub.fs" />
+    <Compile Include="Colour.fs" />
+    <Compile Include="Dom.fs" />
+    <Compile Include="Plots.fs" />
+    <Compile Include="Polyline.fs" />
+    <Compile Include="Markers.fs" />
+    <Compile Include="Bars.fs" />
+    <Compile Include="Histogram.fs" />
+    <Compile Include="Heatmap.fs" />
+    <Compile Include="Chart.fs" />
+    <Compile Include="HtmlConverters.fs" />
+    <Compile Include="Subplots.fs" />
+    <Compile Include="Html.fs" />
+    <None Include="paket.references" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
