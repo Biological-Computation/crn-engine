@@ -103,7 +103,7 @@ module Filzbach =
         then failwith "All fixed parameters must have initial value"
         if parameters |> List.exists (fun p -> p.range.lb>p.range.ub)  
         then failwith "One of the parameter definitions contains upper bound lower than lower bound" 
-        if parameters |> List.exists (fun p -> not (p.isReal()) && p.range.lb<0.0) 
+        if parameters |> List.exists (fun p -> p.isLog() && p.range.lb<0.0) 
         then failwith "One of the log-scale parameter definitions contains negative lower bound"
 
         // Argument coercion

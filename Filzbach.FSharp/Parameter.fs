@@ -49,6 +49,7 @@ module Parameters =
     with
       member p.isFixed () = p.range.pType = Fixed
       member p.isReal () = p.range.pType = Real
+      member p.isLog () = p.range.pType = Log
 
     type ParameterSpace = AssociativeArray<ParameterRange>
     type ParameterValues = AssociativeArray<float>
